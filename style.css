@@ -5,6 +5,9 @@ header {
     background: url("notion\ cover.jpeg");
     border-bottom: 3px solid black;
 }
+footer{
+    background: url("notion\ cover.jpeg");
+}
 
 .caixa {
     position: relative;
@@ -85,7 +88,7 @@ nav a:hover {
     display: inline-block;
     font-family: 'Roboto', sans-serif;
     width: 30%;
-    border: 2px solid #000000;
+    border: 2px solid #ff10c3;
     border-radius: 70px;
 }
 
