@@ -2,11 +2,11 @@
 
 header {
     padding: 20px 0;
-    background: url("notion\ cover.jpeg");
+    background: url(notioncover.jpeg);
     border-bottom: 3px solid black;
 }
-footer{
-    background: url("notion\ cover.jpeg");
+footer {
+    background-image: url(notioncover.jpeg);
 }
 
 .caixa {
@@ -208,22 +208,27 @@ nav a:hover {
 }
 
 .produtos li:hover {
-    border-color:#C78C19;
+    border-color:#ffcdf7;
     font-size: 40px;
 }
 
 .produtos li:active {
-    border-color:#28c719
+    border-color:#ffcdf7
 }
 
 .produtos li:hover h2 {
     font-size: 34px;
 }
+.img-produtos{
+    width: 350px;
+    height: 350px;
+
+}
 
 /* CCS do rodapé de todas as paginas */
 footer {
     text-align: center;
-    background: url("bg.jpg");
+    background: url("notioncover.jpeg");
     padding: 40px 0;
 }
 
@@ -247,7 +252,7 @@ footer {
     margin: 0 0 10px;
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    accent-color: #009d27;
+    accent-color: #000000;
 }
 
 .forms_entradas {
@@ -292,7 +297,7 @@ footer {
 
 .imput_contato {
     margin: 0 0 0 20px;
-    accent-color: #009d27;
+    accent-color: #000000;
 }
 
 #check_email {
@@ -310,7 +315,7 @@ footer {
 }
 
 #submeter:hover {
-    background: #f1a65a;
+    background: #ffcdf7;
     transform: scale(1.05);
 }
 
@@ -325,7 +330,7 @@ footer {
 .table-horario-titulo {
     font-weight: bolder;
     font-size: 15px;
-    background: #f1a65a;
+    background: #ffcdf7;
 }
 .table-horario-celulas {
     border: 1px solid #000000;
@@ -335,7 +340,7 @@ footer {
 
 .table-horario:hover {
     transform: scale(1.02);
-    border: #C78C19;
+    border: #ffcdf7;
 }
 
 .linkedin {
